@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/animate.css">
     <title>Gonztantinopla</title>
 </head>
 
@@ -20,11 +21,11 @@
                 <li><a href="/Pages/clips.html">Clips</a></li> 
                 <li><a href="/Pages/merch.html">Merch</a></li>
                 <li><a href="/Pages/about.html">About me</a></li>
-                <li><a href="/Pages/subscribe.html">Subscribe</a></li>
+                <li class="animatedinfinite pulse"><a href="/Pages/subscribe.html">Subscribe</a></li>
                 <li><a href="/pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <div class="tituloMain">
+        <div class="tituloMain animated zoomIn">
             <img class="logo" src="/Pages/img/Logo.png"> 
         </div>
     </header>
@@ -73,5 +74,9 @@
                 <a class="iconLink" href="https://discord.gg/9EbNhMAAJP" target="blank_"><i class="fa-brands fa-discord"></i></a> 
             </div>
         </footer>
+        <script src="js/wow.min.js"></script>
+            <script>
+            new WOW().init();
+            </script>
 </body>
 </html>
