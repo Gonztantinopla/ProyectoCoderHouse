@@ -28,8 +28,27 @@ body{
 /*MOBILE*/
 
 @media only screen and (min-width:280px) {
-    nav{
     
+    .navegador{
+        display: none;
+    }
+    .navbar {
+        background: rgb(54,14,48);
+background: linear-gradient(90deg, rgba(54,14,48,1) 0%, rgba(101,26,90,0.8715861344537815) 35%, rgba(161,58,146,0.41220238095238093) 100%);
+    }
+    .bg-dark{
+        background-color: #24232400 !important;
+    }
+}
+
+/* TABLET */
+@media only screen and (min-width:768px){
+    .navbar {
+        display: none;
+    }
+    .navegador{ 
+        display: flex;
+        justify-content: center;
         margin-top: 20px; margin-left: 25%; margin-right: 25%; margin-bottom: 40px;
         background-size:contain;
         background-position: top center;
@@ -39,7 +58,7 @@ body{
         border: 5px solid #a13a92;
         border-radius: 3%;
     }
-    nav ul {
+    .navegador ul {
         display:flex;
         flex-flow: column;
         list-style: none;
@@ -48,7 +67,7 @@ body{
         padding: 0;
     }
     
-    nav a{
+    .navegador a{
         text-decoration: none;
         color:#E53BCA;
         background-color: #651a5a;
@@ -59,7 +78,7 @@ body{
         transition: 1s;
         
     }
-    nav a:hover{
+    .navegador a:hover{
         transition: 0.5s;
         background-color: #E53BCA;
         color: #651a5a;
@@ -111,31 +130,27 @@ body{
         animation-fill-mode: both;
         animation-iteration-count: infinite;
     }
-}
-
-/* TABLET */
-@media only screen and (min-width:768px){
-    nav{
+    .navegador{
         
         margin-top: 20px; margin-left: 9%; margin-right: 9%; 
     }
-    nav ul {
+    .navegador ul {
         flex-flow: row;
     }
-    nav a{
+    .navegador a{
         font-size: 1.2rem;
     }
     }
 /* DESKTOP HD*/
 @media only screen and (min-width:960px){
-nav{
+.navegador{
     
     margin-top: 20px; margin-left: 15%; margin-right: 15%; 
 }
-nav ul {
+.navegador ul {
     flex-flow: row;
 }
-nav a{
+.navegador a{
     font-size: 1.2rem;
 }
 }
@@ -143,7 +158,7 @@ nav a{
 
 /* DESKTOP L*/
 @media only screen and (min-width:1150px){
-    nav{
+    .navegador{
         
     margin-left: 20%; margin-right: 20%;
     }
@@ -151,7 +166,7 @@ nav a{
 
 /* DESKTOP XL*/
 @media only screen and (min-width:1250px){
-    nav{
+    .navegador{
         
         margin-left: 25%; margin-right: 25%;
         }
@@ -179,9 +194,12 @@ nav a{
 }
 .logo{
     display: flex;
-    width: 75vw
+    width: 60vw
 }
 
+.desktoplogo{
+    display:none;
+}
 @-webkit-keyframes zoomIn {
     from {
     opacity: 0;
@@ -222,7 +240,9 @@ opacity: 1;
 /*tablet*/
 
 @media only screen and (min-width:768px){
-    
+    .desktoplogo{
+        display: flex;
+    }
     .logo{
         width: 70vw
     }
