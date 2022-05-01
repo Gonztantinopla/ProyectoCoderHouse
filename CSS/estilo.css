@@ -689,12 +689,12 @@ h1{
     /*Listado pagina Clips */
     
     .videosAnteriores{
-        width: 100vw;
+        /* width: 100vw;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(4,1fr);
         justify-items: center;
-        gap: 2em;
+        gap: 2em; */
         background-color: #651a5a54;
     }
     
@@ -776,6 +776,7 @@ h1{
         font-size: 1rem;
         background-color:#270923b0;
         color: #ffffff;
+        max-width:600px ;
     
     }
     
@@ -788,8 +789,7 @@ h1{
     /*Listado pagina Clips */
     
     .videosAnteriores{
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
+    justify-content: space-around;
 
     }
     .clipAnterior {
