@@ -15,12 +15,13 @@ Cambios generales:
   - agrego modal al clickear un producto (modifique la opacidad del fondo con la clase .fade.show, no logre hacer un blur del fondo como queria)
  
  Cambios pagina about:
-  -Reemplazo todo el contenido por containers responsive de BS
+  - Reemplazo todo el contenido por containers responsive de BS
   
  Cambios pagina subscribe:
-  -Reemplazo todo el contenido por containers responsive de BS
-  -Nuevo diseño de los links con animacion (call to action?)
+  - Reemplazo todo el contenido por containers responsive de BS
+  - Nuevo diseño de los links con animacion (call to action?)
  
-  Cambios pagina subscribe:
-  -Reemplazo todo el contenido por containers responsive de BS
-  
+  Cambios pagina contacto:
+  - Reemplazo todo el contenido por containers responsive de BS y agrego diseño de formulario BS
+
+
