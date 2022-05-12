@@ -1,3 +1,14 @@
+Desafio SASS:
+
+- Se implementa SASS mediante archivos SCSS
+  
+ - Uso de maps y each para crear cambio de color en hover de iconos en footer (linea 430)
+  
+ - Creación de mixin para reemplazar código repetido (Fin de la hoja SCSS)
+
+fuera de las consignas del desafío se hacen modificaciones en animaciones e incluyo nuevo scrollbar
+
+
 Desafio maquetando con bootstrap + aplicando bootstrap + segunda entrega del proyecto final. 
 Cambios generales:
   - Agrego bootstrap para barra de navegacion para vistas mobile
