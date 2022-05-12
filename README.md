@@ -1,10 +1,11 @@
 Desafio SASS:
 
-- Se implementa SASS mediante archivos SCSS
+- Se implementa SASS mediante archivos SCSS.
   
- - Uso de maps y each para crear cambio de color en hover de iconos en footer (linea 430)
+ - Uso de maps y each para crear cambio de color en hover de iconos en footer (linea 430).
   
- - Creación de mixin para reemplazar código repetido (Fin de la hoja SCSS)
+ - Creación de mixin para reemplazar código repetido (Fin de la hoja SCSS).
+ - Uso de partials con archivo _ _navbar_ , en el mismo se emplea sintaxis y nesting de SASS.
 
 fuera de las consignas del desafío se hacen modificaciones en animaciones e incluyo nuevo scrollbar
 
