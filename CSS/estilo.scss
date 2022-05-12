@@ -41,6 +41,10 @@ a:hover {
     background: rgba(3, 3, 3, 0.658);
 }
 
+.disclamer {
+    display: none !important;
+}
+
 /* Efecto pulse */
 
 @-webkit-keyframes pulse {
@@ -118,10 +122,21 @@ a:hover {
 // FIN SCROLL
 
 
+// MIXINS
+
+@mixin Flex-FAM {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+// FAM = Fuerte Al Medio
+
+
 
 /* --- etiquetas NAV --- */
 
-@use "navbar"
+@use "navbar";
 
 /*  FIN etiquetas NAV*/
 
@@ -1034,12 +1049,3 @@ a:hover {
 
 
 
-// MIXINS
-
-@mixin Flex-FAM {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-}
-// FAM = Fuerte Al Medio
