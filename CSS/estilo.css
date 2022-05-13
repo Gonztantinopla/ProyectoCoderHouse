@@ -22,7 +22,7 @@ body {
   margin-bottom: 9vh;
 }
 
-.gradient {
+.gradient, .clipsHome {
   background: #360e30;
   background: -webkit-gradient(linear, left top, right top, from(#360e30), color-stop(35%, rgba(101, 26, 90, 0.871586)), to(rgba(161, 58, 146, 0.412202)));
   background: linear-gradient(90deg, #360e30 0%, rgba(101, 26, 90, 0.871586) 35%, rgba(161, 58, 146, 0.412202) 100%);
@@ -343,7 +343,7 @@ a:hover {
     height: 9vh;
     bottom: 0;
     width: 100%;
-    background-color: #651a5ab0;
+    background-color: #360e3085;
   }
   footer p {
     font-size: auto;
@@ -386,9 +386,6 @@ a:hover {
     color: white;
     text-align: center;
   }
-  .clipsHome {
-    width: 100vw;
-  }
   .grillaHome {
     max-width: 500px;
   }
@@ -404,6 +401,10 @@ a:hover {
   .fa-discord:hover {
     color: #5865F2;
   }
+}
+
+.clipsHome {
+  width: 100vw;
 }
 
 /*TABLET*/
@@ -442,7 +443,7 @@ a:hover {
     height: 9vh;
     bottom: 0;
     width: 50%;
-    background-color: #651a5ab0;
+    background-color: #651a5ab9;
     padding: 20px;
     margin-left: 25%;
   }
@@ -457,7 +458,14 @@ a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .iconLink {
     height: 40px;
