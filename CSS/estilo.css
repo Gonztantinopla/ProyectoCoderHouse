@@ -169,7 +169,7 @@ a:hover {
     margin: 0;
     padding: 0;
   }
-  .navegador a {
+  .navegador ul a {
     text-decoration: none;
     color: #E53BCA;
     background-color: #651a5a;
@@ -180,7 +180,7 @@ a:hover {
     -webkit-transition: 1s;
     transition: 1s;
   }
-  .navegador a:hover {
+  .navegador ul a:hover {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     background-color: #E53BCA;
