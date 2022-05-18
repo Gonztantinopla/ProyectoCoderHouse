@@ -1,0 +1,239 @@
+
+/* Mobile */
+@media only screen and (min-width:280px) 
+
+    .clipDestacado 
+        margin-top: 20px
+        padding: 20px
+        display: flex
+        flex-flow: column
+        align-items: center
+        width: 100vw
+        background-color: #651a5a
+        li 
+            word-spacing: 3px
+            letter-spacing: 1px
+            text-align: center
+            list-style: none
+    
+
+    .descVidDestacado 
+        font-size: 1rem
+        background-color: #270923b0
+        color: #ffffff
+
+    
+
+    /* FIN clip destacado */
+
+    /* Separador videos */
+    .barra-separador 
+        display: flex
+        margin-top: 30px
+        margin-bottom: 30px
+        height: 50px
+        width: 100vw
+        background-color: #651a5a
+        box-shadow: 1px 1px 30px rgb(206, 106, 245)
+        font-size: 1rem
+        justify-content: center
+        div 
+            display: flex
+            margin-top: 5px
+            margin-bottom: 5px
+            color: #ffffff
+            background-color: #270923b0
+            width: 100%
+            justify-content: center
+            letter-spacing: 2px
+            word-spacing: 5px
+            align-items: center
+        i 
+            font-size: 20px
+            height: 10px
+            padding-left: 5px
+        p 
+            font-size: 30px
+            align-items: center
+            color: white
+    
+
+    /* FIN SEPARADOR VIDEOS */
+
+    /*Listado pagina Clips */
+
+    .videosAnteriores 
+        background-color: #651a5a54
+    
+
+
+    .clipAnterior 
+        display: flex
+        flex-flow: column
+        padding: 20px
+        height: auto
+        width: 100vw
+        background-color: #651a5a
+        border: 2px solid #a13a92
+        font-size: 14px
+        text-align: center
+        align-items: center
+        color: #ffffff
+    
+
+    li.vidDestG 
+        display: none
+    
+
+    @-webkit-keyframes fadeIn 
+        from 
+            opacity: 0
+        
+
+        to 
+            opacity: 1
+        
+    
+
+    @keyframes fadeIn 
+        from 
+            opacity: 0
+        
+
+        to 
+            opacity: 1
+        
+    
+
+    .fadeIn 
+        -webkit-animation-name: fadeIn
+        animation-name: fadeIn
+    
+
+    .animated 
+        -webkit-animation-duration: 1.5s
+        animation-duration: 1s
+        -webkit-animation-fill-mode: both
+        animation-fill-mode: both
+        animation-iteration-count: 1
+
+    
+
+
+/* Tablet */
+
+@media only screen and (min-width:768px) 
+
+    .clipDestacado 
+        margin-top: 20px
+        padding: 20px
+        display: flex
+        flex-flow: row
+        align-items: center
+        justify-content: space-around
+        width: 100vw
+        background-color: #651a5a
+        li 
+            word-spacing: 3px
+            letter-spacing: 1px
+            text-align: center
+            list-style: none
+    
+    .descVidDestacado 
+        width: 40vw
+        font-size: 1rem
+        background-color: #270923b0
+        color: #ffffff
+        max-width: 600px
+
+    
+
+    /* FIN clip destacado */
+
+    /*Listado pagina Clips */
+
+    .videosAnteriores 
+        justify-content: space-around
+
+    
+
+    .clipAnterior 
+        width: auto
+    
+
+    .clip1 
+        grid-column: 1/2
+        grid-row: 1/2
+    
+
+    .clip2 
+        grid-column: 2/3
+        grid-row: 1/2
+    
+
+    .clip3 
+        grid-column: 1/2
+        grid-row: 2/3
+    
+
+    .clip4 
+        grid-column: 2/3
+        grid-row: 2/3
+    
+
+
+
+
+/* desktop */
+
+@media only screen and (min-width:960px) 
+
+    .clipDestacado 
+        margin-top: 20px
+        padding: 20px
+        display: flex
+        justify-content: center
+        align-items: stretch
+        background-color: #651a5a
+        height: 450px
+        li 
+            width: 40vw
+            word-spacing: 3px
+            letter-spacing: 1px
+            font-size: 30px
+            text-align: center
+            list-style: none
+            display: flex
+            align-items: center
+        .vidDestacado
+        justify-content: center
+    
+
+    iframe.descVidDestacado 
+        width: 100%
+    
+
+    .descVidDestacado 
+        margin-left: 25px
+        background-color: #270923b0
+        color: #ffffff
+
+    
+
+    .clipAnterior 
+        flex-flow: row
+        width: 600px
+        align-items: center
+        font-size: 1.2rem
+        p 
+            margin-left: 20pxs
+
+    li.vidDestG 
+        display: flex
+    
+
+    li.vidDestacado 
+        display: none
+    
+
+
