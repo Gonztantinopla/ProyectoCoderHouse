@@ -1,3 +1,8 @@
+Tercer entrega del proyecto final.
+
+Limpieza de codigo en desuso, implementacion de SASS, agregado de metadata para mejorar SEO, utilizacion de bootstrap como framework y modificaciones realizadas sobre el mismo para dar personalizacion al proyecto. 
+
+
 Desafio SASS:
 
 - Se implementa SASS mediante archivos SCSS.
