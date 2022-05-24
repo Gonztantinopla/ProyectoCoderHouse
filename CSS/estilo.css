@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background-image: url(/Pages/img/wallpaper.png);
+  background-image: url(/pages/img/wallpaper.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -317,7 +317,7 @@ a:hover {
 }
 
 /* --- FIN TITULO ---*/
-/* --- Index y FOOTER --- */
+/* --- grid main y FOOTER --- */
 /*MOBILE*/
 @media only screen and (min-width: 280px) {
   .videoHome {
@@ -347,7 +347,7 @@ a:hover {
   }
   footer p {
     font-size: auto;
-    color: white;
+    color: rgba(255, 255, 255, 0.662);
     text-shadow: 2px 2px 10px #ffffff;
     margin-bottom: 0;
   }
@@ -449,7 +449,7 @@ a:hover {
   footer p {
     font-size: auto;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 10px #ffffff;
+    text-shadow: 2px 2px 20px #E53BCA;
     margin-bottom: 0;
   }
   footer div {
