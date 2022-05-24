@@ -1,3 +1,8 @@
+Ultima entrega del proyecto
+Realizo correcciones solicitadas por el docente
+- Cambiar color de fuente del texto en Footer para un mayor contraste
+- Cambiar nombre de directorio en donde se alojan los HTML evitando el uso de mayusculas. 
+
 Tercer entrega del proyecto final.
 
 Limpieza de codigo en desuso, implementacion de SASS, agregado de metadata para mejorar SEO, utilizacion de bootstrap como framework y modificaciones realizadas sobre el mismo para dar personalizacion al proyecto. 
