@@ -893,7 +893,7 @@ a:hover {
   /* FIN boton proximamente */
   /* Modals */
   .modal-content {
-    background-image: url(/Pages/img/wallpaper.png);
+    background-image: url(/pages/img/wallpaper.png);
     background-size: cover;
   }
   .articulo :hover {
