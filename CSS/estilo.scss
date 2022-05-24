@@ -181,7 +181,7 @@ a:hover {
 
 
 
-/* --- grid main y FOOTER --- */
+/* --- Index y FOOTER --- */
 
 
 
@@ -206,7 +206,7 @@ a:hover {
 
     footer p {
         font-size: auto;
-        color: map-get($map: $PaletaColores, $key:fondo-claro );
+        color: white;
         text-shadow: 2px 2px 10px #ffffff;
         margin-bottom: 0;
     }
@@ -272,7 +272,6 @@ a:hover {
     footer p {
         font-size: auto;
         margin-bottom: 20px;
-        color: map-get($map: $PaletaColores, $key:fondo-claro );
         text-shadow: 2px 2px 10px #ffffff;
     }
 
@@ -303,7 +302,6 @@ a:hover {
     footer p {
         font-size: auto;
         margin-bottom: 20px;
-        color: map-get($map: $PaletaColores, $key:fondo-claro );
         text-shadow: 2px 2px 10px #ffffff;
         margin-bottom: 0;
     }
